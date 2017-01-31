@@ -1,15 +1,14 @@
 
 """
-« is beginning of string
-» ends string
+Â« is beginning of string
+Â» ends string
 
 
 
 
 
 """
-memeLang(input)
-{
+def memeLang():
 
     #Globals    
     printStr = ""
@@ -18,16 +17,16 @@ memeLang(input)
 
     #Checking for chars
     for char in input:
-	if char = "«"
+	if char = "Â«"
 	    inPrint = false
-        if char = "»"
+        if char = "Â»"
 	    inPrint = true
 
 
 
 
 	#Handling chars
-	if inPrint && char != "»"
+        if inPrint and char != "Â»":
 	    printStr+=char
         
 
@@ -35,9 +34,7 @@ memeLang(input)
 
 
 	#And print output
-        if printStr.length > 0
+        if printStr.length > 0:
 	    print printStr
 
 
-
-}

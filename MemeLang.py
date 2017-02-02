@@ -8,7 +8,11 @@
 
 
 """
-def memeLang():
+def expon(a,b):
+    return a ** b
+
+	
+def memeLang(inpt): 
 
     #Globals    
     printStr = ""
@@ -17,9 +21,9 @@ def memeLang():
 
     #Checking for chars
     for char in input:
-	if char = "«"
+	if char = "«":
 	    inPrint = false
-        if char = "»"
+        if char = "»":
 	    inPrint = true
 
 
@@ -34,7 +38,7 @@ def memeLang():
 
 
 	#And print output
-        if printStr.length > 0:
+        if len(printStr) > 0:
 	    print printStr
 
 
